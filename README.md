@@ -10,7 +10,7 @@ $$
 \end{aligned}
 $$
 
-The first term in the equation for $\frac{dv(t)}{dt}$ describes the effect of the approximately constant gravitational force, the second term is the drag term. Here $g$ is the approximate gravitational acceleration, presumed constant over the trajectory, $D$ is a drag parameter, $\beta$ is an atmospheric scale
+The first term in the equation for $\frac{dv(t)}{dt}$ describes the effect of the approximately constant gravitational force, the second term is the drag term. Here $g$ is the approximate gravitational acceleration, presumed constant over the trajectory, $D$ is a drag parameter, $\beta$ is an atmospheric scale
 parameter, and $\rho_0$ is the sea-level atmospheric density.
 
 Like many differential equations modelling physical systems, this equation does not possess a closed-form analytical solution. To solve it, numerical methods are needed. The simplest of those, is the Euler method, which approximates the differentials by finite small differences.
