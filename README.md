@@ -52,7 +52,7 @@ $v_0 = v(0) = 7600 \text{ m s}^{-1}$
    - Structural & Thermal Protections: Under such violent deceleration, the massive dynamic pressure ($q = \frac{1}{2}\rho v^2$) generates enormous aerodynamic stress, which would instantly disintegrate the capsule's hull. Furthermore, this extreme deceleration is accompanied by intense aerodynamic heating, which would incinerate the spacecraft instantly.
 
 4. From a Numerical Perspective
-   - Step-size Sensitivity: Because $\frac{dv}{dt}$ changes so violently in the peak region, using $Delta t = 0.1$s is necessary. If one uses a coarse step like $\Delta t = 1$s with the forward Euler method, the algorithm might easily "step over" the peak, resulting in an underestimated G-force and potentially yielding massive negative altitudes (tunneling).
+   - Step-size Sensitivity: Because $\frac{dv}{dt}$ changes so violently in the peak region, using $Delta t = 0.1 \text{s}$ is necessary. If one uses a coarse step like $\Delta t = 1 \text{s}$ with the forward Euler method, the algorithm might easily "step over" the peak, resulting in an underestimated G-force and potentially yielding massive negative altitudes (tunneling).
    - The problem assumes a constant $g$. In reality, at an altitude of 120 km, the gravitational acceleration is less than at sea level. However, because the non-linear drag term $v^2$ is so overwhelmingly destructive in this model, the constant $g$ assumption does not change the overall conclusion (immediate crash).
 
 ### Conclusion
