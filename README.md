@@ -5,3 +5,17 @@ $$
 \frac{dh(t)}{dt} = -v(t) \\
 \frac{dv(t)}{t} = g - \frac{1}{2}D\rho_0e^{\beta h(t)}v(t)^2
 $$
+The first term in the equation for $\frac{dv(t)}{dt}$ describes the effect of the approximately constant gravitational force, the second term is the drag term. Here $g$ is the approximate gravitational acceleration, presumed constant over the trajectory, $D$ is a drag parameter, $\beta$ is an atmospheric scale
+parameter, and $\rho_0$ is the sea-level atmospheric density.\
+Like many differential equations modelling physical systems, this equation does not possess a closed-form analytical solution. To solve it, numerical methods are needed. The simplest of those, is the Euler method, which approximates the differentials by finite small differences.\
+Here we take\
+$$
+text{Gravitational acceleration: } g = 9.81 ms^{-2} \\
+text{Drag parameter: } D = 0.01 m^2 kg^{-1} \\
+text{Sea-level atmospheric density: } \rho_0 = 1.25 kg m^{-3} \\
+text{Atmospheric scale factor: } \beta = 0.000135 m^{-1} \\
+h_0 = h(0) = 120,000 m \\
+v_0 = v(0) = 7600 ms^{-1}
+$$
+Here is the graph of result:
+<img width="1709" height="567" alt="result" src="https://github.com/user-attachments/assets/9587d288-a541-4087-b5a8-766fa5bf3491" />
