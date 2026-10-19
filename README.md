@@ -17,12 +17,17 @@ Like many differential equations modelling physical systems, this equation does 
 
 Here we take
 
-Gravitational acceleration: $g = 9.81 \text{ m s}^{-2}$ \
-Drag parameter: $D = 0.01 \text{ m}^2 \text{ kg}^{-1}$ \
-Sea-level atmospheric density: $\rho_0 = 1.25 \text{ kg m}^{-3}$ \
-Atmospheric scale factor: $\beta = 0.000135 \text{ m}^{-1}$ \
+$$
+\begin{aligned}
+\text{Gravitational acceleration: } &g = 9.81 \text{ m s}^{-2} \\
+\text{Drag parameter: } &D = 0.01 \text{ m}^2 \text{ kg}^{-1} \\
+\text{Sea-level atmospheric density: } &\rho_0 = 1.25 \text{ kg m}^{-3} \\
+\text{Atmospheric scale factor: } &\beta = 0.000135 \text{ m}^{-1}
+\end{aligned}
+$$
+
 $h_0 = h(0) = 120,000 \text{ m}$ \
-$v_0 = v(0) = 7600 ms^{-1}$
+$v_0 = v(0) = 7600 \text{ m s}^{-1}$
 
 Here is the graph of result:
 <img width="1709" height="567" alt="result" src="https://github.com/user-attachments/assets/9587d288-a541-4087-b5a8-766fa5bf3491" />
