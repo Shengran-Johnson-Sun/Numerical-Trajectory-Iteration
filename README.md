@@ -39,7 +39,7 @@ $v_0 = v(0) = 7600 \text{ m s}^{-1}$
 ### Analysis Report
 
 1. Evolution of Altitude and Velocity
-   - High-Altitude Phase ($h \g 30$km): The spacecraft descends at an extremely high initial velocity of 7600 m/s. Because the atmospheric density $\rho = \rho_0 e^{-\beta h}$ decays exponentially, it is practically zero at this stage. Consequently, air drag is negligible. The velocity curve is almost horizontal (only slightly accelerated by gravity $g$), and the altitude decreases linearly.
+   - High-Altitude Phase ($h > 30$km): The spacecraft descends at an extremely high initial velocity of 7600 m/s. Because the atmospheric density $\rho = \rho_0 e^{-\beta h}$ decays exponentially, it is practically zero at this stage. Consequently, air drag is negligible. The velocity curve is almost horizontal (only slightly accelerated by gravity $g$), and the altitude decreases linearly.
    - Low-Altitude Transition Phase (dense atmosphere): When the spacecraft plummets into the dense atmosphere (roughly below 20-30 km) within a very short time, the atmospheric density surges. Since drag $F_d \propto \rho v^2$, the drag term instantly dominates, causing the velocity $v(t)$ to experience catastrophic cliff-edge drop (rapid deceleration).
 
 2. Peak lethal G-Force\
